@@ -28,7 +28,6 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: 
 }
 
 section {
@@ -560,9 +559,10 @@ section {
 .footer--location-heading{
     margin-bottom: 30px;
 }
-.footer--contact-content {
-
+.start-screen--burger {
+    display: none;
 }
+
 .footer--contact-email {
     
     /* h4 */
@@ -617,8 +617,7 @@ section {
     max-width: 296px;
 }
 
-.footer--location-content {
-}
+
 .footer--location-li{
     font-family: 'Georgia';
     font-style: normal;
