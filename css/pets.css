@@ -25,7 +25,9 @@ footer {
     max-height: 350px;
     overflow: hidden;
 }
-
+.start-screen--burger{
+    display: none;
+}
 main {
     display: flex;
     align-items: center;
