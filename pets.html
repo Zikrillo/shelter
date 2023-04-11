@@ -9,14 +9,59 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
     <link rel="stylesheet" href="css/pets.css">
     <link rel="stylesheet" href="css/media_pets.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
+    <div class="modal">
+        <div class="modal--close-button">
+            <img src="assets/close.png" alt="">
+        </div>
+        <div class="modal--body">
+            <div class="modal--body-image">
+                <img src="assets/pets-jennifer.png" alt="">
+            </div>
+            <div class="modal--body-description">
+                <div class="modal--body-header">
+                    Jennifer
+                </div>
+                <div class="modal--body-subheader">
+                    Dog - Labrador
+                </div>
+                <div class="modal--body-info">
+                    Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.
+                </div>   
+                <ul class="modal--body-general-information">
+                    <li><div class="modal--body-general-information-key">Age:</div>
+                        <div class="modal--body-general-information-value">
+                            2 months
+                        </div>
+                    </li>
+                    <li><div class="modal--body-general-information-key">Inoculations:</div>
+                        <div class="modal--body-general-information-value">
+                            none
+                        </div>
+                    </li>
+                    <li><div class="modal--body-general-information-key">Diseases:</div>
+                        <div class="modal--body-general-information-value">
+                            none
+                        </div>
+                    </li>
+                    <li><div class="modal--body-general-information-key">Parasites:</div>
+                        <div class="modal--body-general-information-value">
+                            none
+                        </div>
+                    </li>
+
+                </ul> 
+            </div>
+        </div>
+    </div>
     <header>
         <section class="start-screen">
             <nav class="start-screen--header">
                 <div class="start-screen--logo">
-                    <a href="/">
+                    <a href="./shelter">
                         <div class="start-screen--title">
                             Cozy House
                         </div>
@@ -131,7 +176,6 @@
                         Learn more
                     </button>
                 </div>
-
             </div>
             <div class="pet-list--pagination">
                 <div class="pet-list--pagination-item passive">
@@ -183,6 +227,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/pets.js"></script>
 </body>
 
 </html>

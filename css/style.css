@@ -264,16 +264,19 @@ section {
 }
 
 .pets--slider {
-    display: flex;
+    display: grid;
     width: 100%;
     max-width: 1200px;
     justify-content: space-between;
     align-items: center;
+    grid-template-columns: 52px 1fr 52px;
+    grid-column-gap: 53px;
 
 }
 
 .pets--slider_left,
 .pets--slider_right {
+    user-select: none;
     width: 52px;
     height: 52px;
     border-radius: 50%;
@@ -295,9 +298,10 @@ section {
 
 .pets--slider_content {
     flex-grow: 2;
-    display: flex;
+    display: grid;
     justify-content: space-between;
-    margin: 0px 53px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 90px;
 }
 
 .pets--slider-card {
@@ -460,6 +464,10 @@ section {
 .donate--image img{
     width: 505px;
     height: 261px;
+}
+.pets--slider_container {
+    max-width: calc(100vw - 290px);
+    overflow: hidden;
 }
 .donate--content {
     max-width: 380px;
@@ -650,5 +658,5 @@ section {
 
 .footer--image {
     transform: translateY(-16px) translateX(9px);
-
 }
+

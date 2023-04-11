@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media_style.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
@@ -50,6 +51,50 @@
         </section>
     </header>
     <main>
+        <div class="modal">
+            <div class="modal--close-button">
+                <img src="assets/close.png" alt="">
+            </div>
+            <div class="modal--body">
+                <div class="modal--body-image">
+                    <img src="assets/pets-jennifer.png" alt="">
+                </div>
+                <div class="modal--body-description">
+                    <div class="modal--body-header">
+                        Jennifer
+                    </div>
+                    <div class="modal--body-subheader">
+                        Dog - Labrador
+                    </div>
+                    <div class="modal--body-info">
+                        Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.
+                    </div>   
+                    <ul class="modal--body-general-information">
+                        <li><div class="modal--body-general-information-key">Age:</div>
+                            <div class="modal--body-general-information-value">
+                                2 months
+                            </div>
+                        </li>
+                        <li><div class="modal--body-general-information-key">Inoculations:</div>
+                            <div class="modal--body-general-information-value">
+                                none
+                            </div>
+                        </li>
+                        <li><div class="modal--body-general-information-key">Diseases:</div>
+                            <div class="modal--body-general-information-value">
+                                none
+                            </div>
+                        </li>
+                        <li><div class="modal--body-general-information-key">Parasites:</div>
+                            <div class="modal--body-general-information-value">
+                                none
+                            </div>
+                        </li>
+
+                    </ul> 
+                </div>
+            </div>
+        </div>
         <section class="about">
             <div class="about--image">
                 <img src="assets/about-pets.png" alt="">
@@ -79,41 +124,12 @@
                 <div class="pets--slider_left">
                     <img src="assets/Arrow.svg" alt="">
                 </div>
-                <div class="pets--slider_content">
-                    <div class="pets--slider-card">
-                        <div class="pets--slider-card-image">
-                            <img src="assets/pets-katrine.png" alt="">
-                        </div>
-                        <div class="pets--slider-card-pet-name">
-                            Katrine
-                        </div>
-                        <button class="pets-lider-card-learn-more">
-                            Learn more
-                        </button>
-                    </div>
-                    <div class="pets--slider-card">
-                        <div class="pets--slider-card-image">
-                            <img src="assets/pets-jennifer.png" alt="">
-                        </div>
-                        <div class="pets--slider-card-pet-name">
-                            Jennifer
-                        </div>
-                        <button class="pets-lider-card-learn-more">
-                            Learn more
-                        </button>
-                    </div>
-                    <div class="pets--slider-card">
-                        <div class="pets--slider-card-image">
-                            <img src="assets/pets-woody.png" alt="">
-                        </div>
-                        <div class="pets--slider-card-pet-name">
-                            Woody
-                        </div>
-                        <button class="pets-lider-card-learn-more">
-                            Learn more
-                        </button>
+                <div class="pets--slider_container">
+                    <div class="pets--slider_content">
+                        
                     </div>
                 </div>
+                
                 <div class="pets--slider_right">
                     <img src="assets/Arrow.svg" alt="">
                 </div>
@@ -258,6 +274,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
