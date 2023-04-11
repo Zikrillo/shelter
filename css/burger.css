@@ -1,0 +1,71 @@
+.burger {
+    width: 320px;
+    height: 100vh;
+    background: #292929;
+    position: fixed;
+    right: 0;
+    transform: translateX(100%);
+    transition: 1s;
+    animation: animatic 1s;
+    z-index: 99999;
+}
+
+.burger .start-screen--nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.burger .start-screen--nav-menu li {
+    margin-bottom: 40px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    /* or 51px */
+
+
+    /* color-dark-s */
+
+    color: #CDCDCD;
+
+}
+
+.burger--shadow{
+    width: 100vw;
+    height: 100vh;
+    background-color:#0000008c;
+    position: fixed;
+    z-index: 999;
+    display: none;
+    animation: animatic 1s;
+}
+.start-screen--burger{
+    z-index: 999999;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+.burger_active{
+    transform: translateX(0);
+    display: block;
+
+}
+.shadow_active{
+
+    animation: animatic 1s;
+    display: block;
+}
+@keyframes animatec{
+    0%{
+
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

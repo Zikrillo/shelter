@@ -190,6 +190,7 @@ section {
     flex-grow: 2;
     background-repeat: no-repeat;
     margin-left: 42px;
+    z-index: inherit;
 }
 
 .about--content {
@@ -569,6 +570,7 @@ section {
 }
 .start-screen--burger {
     display: none;
+    transition: 1s;
 }
 
 .footer--contact-email {
